@@ -1,0 +1,103 @@
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Django specific
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+
+# Media and Static Files
+/media/
+/staticfiles/
+
+# Environment variables and settings
+.env
+*.env
+config/settings/local.py  # If you have a local settings file
+config/settings/*.local  # Example for modularized settings
+
+# PostgreSQL specific
+*.pgsql
+*.pgdata
+*.sql
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage and test reports
+.coverage
+*.cover
+*.cov
+htmlcov/
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# Build files
+build/
+dist/
+*.egg-info/
+*.egg
+pip-log.txt
+
+# Migrations
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.py
+
+# Celery
+celerybeat-schedule
+*.celerybeat-schedule
+
+# pytest
+.cache/
+
+# MyPy
+.mypy_cache/
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+*.save
+
+# Logs and debug files
+*.log
+*.out
+
+# Node.js dependencies (if using)
+node_modules/
+
+# IDE-specific directories
+.idea/
+.project/
+.pydevproject
+*.iml
+*.ipr
+*.iws
+*.sublime-project
+*.sublime-workspace
+
+# Ansible Vault
+*.vault.yml

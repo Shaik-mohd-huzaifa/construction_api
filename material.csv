@@ -1,0 +1,21 @@
+name,category,unit,base_price,stock
+Iron Bars TNT 500,Raw Material,Tons,236,12
+Steel Sheets HXL 300,Raw Material,Tons,420,8
+Copper Wires FLEX 100,Raw Material,Tons,312,15
+Aluminum Rods ARD 200,Raw Material,Tons,280,20
+Brass Plates BPX 400,Raw Material,Tons,350,18
+PVC Pipes PPC 600,Raw Material,Tons,180,25
+Concrete Mix CMT 700,Raw Material,Tons,150,30
+Wood Panels WPX 500,Raw Material,Tons,200,22
+Glass Sheets GSH 100,Raw Material,Tons,275,10
+Rubber Rolls RRL 800,Raw Material,Tons,300,14
+Granite Blocks GBX 900,Raw Material,Tons,500,6
+Sandstone Slabs SSS 700,Raw Material,Tons,220,28
+Clay Bricks CBR 300,Raw Material,Tons,125,40
+Limestone Powder LMP 100,Raw Material,Tons,130,35
+Reinforced Bars RBT 200,Raw Material,Tons,400,9
+Paint Buckets PNT 500,Raw Material,Tons,250,16
+Ceramic Tiles CTX 300,Raw Material,Tons,320,12
+Gypsum Boards GBD 400,Raw Material,Tons,240,19
+Asphalt Mix AMX 600,Raw Material,Tons,280,24
+Adhesive Glue AGX 200,Raw Material,Tons,90,50
