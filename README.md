@@ -59,7 +59,7 @@ The project is organized as follows:
 ### Installation  
 1. Clone the repository:  
     ```bash  
-    git clone https://github.com/your-username/your-repo.git  
+    git clone https://github.com/Shaik-mohd-huzaifa/construction_api.git  
     cd your-repo  
     ```  
 
