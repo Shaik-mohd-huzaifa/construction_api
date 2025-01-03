@@ -147,6 +147,56 @@
 						"description": "This is a DELETE request, and it is used to delete data that was previously created via a POST request. You typically identify the entity being updated by including an identifier in the URL (eg. `id=1`).\n\nA successful DELETE request typically returns a `200 OK`, `202 Accepted`, or `204 No Content` response code."
 					},
 					"response": []
+				},
+				{
+					"name": "Get CSV files in Bulk",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/materials/materials/bulk_export/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"materials",
+								"materials",
+								"bulk_export",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Send the Bulk Entries through CSV file",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/materials/materials/bulk_import/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"materials",
+								"materials",
+								"bulk_import",
+								""
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"description": "Contains all the URL for the material related requests"
