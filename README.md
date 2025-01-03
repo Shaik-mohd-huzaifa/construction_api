@@ -88,7 +88,9 @@ The project is organized as follows:
 - `POST /materials/materials/` - Create a new material.  
 - `GET /materials/materials/{id}/` - Retrieve a material by ID.  
 - `PUT /materials/materials/{id}/` - Update a material by ID.  
-- `DELETE /materials/materials/{id}/` - Delete a material by ID.  
+- `DELETE /materials/materials/{id}/` - Delete a material by ID.
+- `DELETE /materials/bulk_import/` - To upload large csv file with material entries.
+- `DELETE /materials/bulk_export/` - Get large csv data of material entries.
 
 ### Order Processing  
 - `GET /materials/orders/` - List all orders.  
